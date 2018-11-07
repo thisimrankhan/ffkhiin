@@ -1,0 +1,1553 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="verify-v1" content="JzdIphdEbOqZc7gRvT4FEAEeHUkQFKsyqlqOoBvvvZM=" />
+    <meta property="og:site_name" content="StockLayouts" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.stocklayouts.com/images/superviews/FB0191501-S.jpg" />
+	<style type="text/css">
+        .sa_info{padding: 0 0 10px !important;margin-right:30px !important;}
+		.sa_comments{font-size: 16px !important;line-height: 1.45 !important;}
+        .sa_name{margin-top: 5px !important;}
+        .sa_displayname{font-size: 16px !important;font-weight: 600 !important;}
+        .sa_star{background: url(/images/star-reviews.png) no-repeat !important;}
+	    .sa_review{margin: 0 !important;padding: 10px 0 10px !important;}
+	</style>
+<link rel="stylesheet" type="text/css" href="/Styles/bootstrap.css" /><link rel="stylesheet" type="text/css" href="/Styles/owl.carousel.css" /><link rel="stylesheet" type="text/css" href="/Styles/owl.theme.css" /><link rel="stylesheet" type="text/css" href="/Styles/custom.css?v=20180901" /><link rel="stylesheet" type="text/css" href="/Styles/tabs.css" /><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /><link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <script type="text/javascript" src="//use.typekit.net/cdd1tau.js"></script>
+        <script type="text/javascript">
+            try { Typekit.load(); } catch (e) { }
+        </script>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            (function($) {
+                $(document).ready(function() {
+                    $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                        $(this).parent().siblings().removeClass('open');
+                        $(this).parent().toggleClass('open');
+                    });
+                });
+            })(jQuery);
+        </script>
+        <script type="text/javascript">
+            (function($) {
+             $.support.placeholder = ('placeholder' in document.createElement('input'));
+            })(jQuery);
+
+            //fix for IE7 and IE8
+            $(function() {
+             if (!$.support.placeholder) {
+                 $("[placeholder]").focus(function() {
+                     if ($(this).val() == $(this).attr("placeholder")) $(this).val("");
+                 }).blur(function() {
+                     if ($(this).val() == "") $(this).val($(this).attr("placeholder"));
+                 }).blur();
+
+                 $("[placeholder]").parents("form").submit(function() {
+                     $(this).find('[placeholder]').each(function() {
+                         if ($(this).val() == $(this).attr("placeholder")) {
+                             $(this).val("");
+                         }
+                     });
+                 });
+             }
+            });
+        </script>
+        <script type="text/javascript" src="/ClientScript/jquery.watermark.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                /*
+                * Set watermarks on input fields; IE8 & IE9 don't support placeholders
+                * This routine extracts the placeholder text from the HTML input statements and 
+                *    passes it to the jQuery watermark plugin
+                * so we don't have to separately maintain the watermark text
+                */
+                $('[placeholder]').each(function() {
+                    var placeholderText = $(this).attr('placeholder');
+                    $(this).watermark(placeholderText);
+                });
+            });
+        </script>
+
+        <script type="text/javascript" src="/ClientScript/owl.carousel.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#slider").owlCarousel({
+
+                    // Most important owl features
+                    items: 6,
+                    itemsCustom: false,
+                    itemsDesktop: [1199, 5],
+                    itemsDesktopSmall: [980, 5],
+                    itemsTablet: [768, 4],
+                    itemsTabletSmall: [667, 4],
+                    itemsMobile: [479, 3],
+                    singleItem: false,
+                    itemsScaleUp: false,
+
+                    //Basic Speeds
+                    slideSpeed: 800,
+                    paginationSpeed: 800,
+                    rewindSpeed: 1000,
+
+                    //Autoplay
+                    autoPlay: false,
+                    stopOnHover: true,
+
+                    // Navigation
+                    navigation: false,
+                    navigationText: ["prev", "next"],
+                    rewindNav: true,
+                    scrollPerPage: true,
+
+                    //Pagination
+                    pagination: true,
+                    paginationNumbers: false
+
+                });
+                $("#slider-2").owlCarousel({
+
+                    // Most important owl features
+                    items: 6,
+                    itemsCustom: false,
+                    itemsDesktop: [1199, 5],
+                    itemsDesktopSmall: [980, 5],
+                    itemsTablet: [768, 4],
+                    itemsTabletSmall: [667, 4],
+                    itemsMobile: [479, 3],
+                    singleItem: false,
+                    itemsScaleUp: false,
+
+                    //Basic Speeds
+                    slideSpeed: 800,
+                    paginationSpeed: 800,
+                    rewindSpeed: 1000,
+
+                    //Autoplay
+                    autoPlay: false,
+                    stopOnHover: true,
+
+                    // Navigation
+                    navigation: false,
+                    navigationText: ["prev", "next"],
+                    rewindNav: true,
+                    scrollPerPage: true,
+
+                    //Pagination
+                    pagination: true,
+                    paginationNumbers: false
+
+                });
+                $("#slider-wide").owlCarousel({
+
+                    // Most important owl features
+                    items: 4,
+                    itemsCustom: false,
+                    itemsDesktop: [1199, 4],
+                    itemsDesktopSmall: [1024, 3],
+                    itemsTablet: [768, 3],
+                    itemsTabletSmall: [667, 3],
+                    itemsMobile: [479, 2],
+                    singleItem: false,
+                    itemsScaleUp: false,
+
+                    //Basic Speeds
+                    slideSpeed: 800,
+                    paginationSpeed: 800,
+                    rewindSpeed: 1000,
+
+                    //Autoplay
+                    autoPlay: false,
+                    stopOnHover: true,
+
+                    // Navigation
+                    navigation: false,
+                    navigationText: ["prev", "next"],
+                    rewindNav: true,
+                    scrollPerPage: true,
+
+                    //Pagination
+                    pagination: true,
+                    paginationNumbers: false
+
+                });
+                $("#slider-wide-2").owlCarousel({
+
+                    // Most important owl features
+                    items: 3,
+                    itemsCustom: false,
+                    itemsDesktop: [1199, 4],
+                    itemsDesktopSmall: [1024, 3],
+                    itemsTablet: [768, 3],
+                    itemsTabletSmall: [667, 3],
+                    itemsMobile: [479, 2],
+                    singleItem: false,
+                    itemsScaleUp: false,
+
+                    //Basic Speeds
+                    slideSpeed: 800,
+                    paginationSpeed: 800,
+                    rewindSpeed: 1000,
+
+                    //Autoplay
+                    autoPlay: false,
+                    stopOnHover: true,
+
+                    // Navigation
+                    navigation: false,
+                    navigationText: ["prev", "next"],
+                    rewindNav: true,
+                    scrollPerPage: true,
+
+                    //Pagination
+                    pagination: true,
+                    paginationNumbers: false
+
+                });
+            });
+        </script>
+
+        <script type="text/javascript" src="/ClientScript/offcanvas.js"></script>
+        <script type="text/javascript" src="/ClientScript/Utilities.js"></script>
+        
+        <script type="text/javascript">
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-75000-1', 'auto');
+            ga('send', 'pageview');
+            ga('require', 'ecommerce');
+
+        </script>
+	<link href="/Styles/SideSearch.css" type="text/css" rel="stylesheet" /><link href="/WebResource.axd?d=IPeluPODhuxgcsCane2vmH4-kURDO45D5MAtm6T9dogNtrcDQDqaeE2cbeiDON0EYYh3I82tr4znSsDItOjXZ3ZvbKy0IMgXiBPAVGrmTe4K_WlB0zctesBUPwOqwUzccWW0l5Uh6g5VGmC40csFCQ2&amp;t=636318481439967539" type="text/css" rel="stylesheet" />	<meta name="KEYWORDS" content="bakery cupcake shop flyer template, bakery cupcake shop flyer design" />
+	<meta name="DESCRIPTION" content="Make a great-looking bakery &amp; cupcake shop flyer with easy-to-customize layouts that include photos &amp; artwork. Get design ideas &amp; examples - download templates, edit &amp; print." />
+<title>
+	Bakery & Cupcake Shop Flyer Template Design
+</title></head>
+	<body>
+		<form method="post" action="/Templates/FB0191501.aspx?campaign=pvpdf" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="ctl00_slScriptManager_HiddenField" id="ctl00_slScriptManager_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="ctl00_mainColumnHolder_tagsTabsContainer_ClientState" id="ctl00_mainColumnHolder_tagsTabsContainer_ClientState" value="{&quot;ActiveTabIndex&quot;:0,&quot;TabState&quot;:[true,true,true]}" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZN9xrT6jfnPWZ7py_mT7TzuoXk1weBO7yNMfINv-BR9LbnOTJkVgTCokdUkZv0TIbw2&amp;t=636511160826842555" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=D9drwtSJ4hBA6O8UhT6CQnnjEvweRAwQTPSduaj_NXI8dOzQac93mV_-jraZKIybvNMp9aSVxYK_pP719h4oZgvoCcYbRLv9gk0CpAY9RWIXYMcC5NR6FM1VD-CKQL-pyoh88eJJmOeaKd085Fpai6-vJUbx1-t-2UZ_O07acx01&amp;t=ffffffffad4b7194" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=JnUc-DEDOM5KzzVKtsL1tVabR28JetbXB_h5FOYB7aiUM8TPHN3cxxVyQLdupnmzfoZPtYkAqCokHdU597WHECqM1NoKuuIsxZ4OfFUStDknPrEknAoapBNOFC6oGsvakYi0zeYda7lKixHqZGLUfid1kjLB0bH95ztGXGm04mq_Mvsp-7E-iIEx3dPpq2By0&amp;t=ffffffffad4b7194" type="text/javascript"></script>
+<script src="/Templates/Details.aspx?_TSM_HiddenField_=ctl00_slScriptManager_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.0.20820.33377%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a1154bb54-beda-4796-9e39-49b98cc02dac%3a865923e8%3a91bd373d%3aad1f21ce%3a596d588c" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="6D088AFA" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="M6UxrnTTtUFA6V869bYndZ5gAgaNVaAoNKX8wa0fIe4woHiuoBO1Ph8A8PAXqRSICMUaS+xGKfktpiNS0+cw8VVFrUxlpw/Bfzb26Zs5YYfQRr06lOftADpkip0KB4Vfr0Pl9qR61gO95WsP6HMAZChfHMLNdj5UDBS9rPcKhuNmLey834gvLjOClStw70b4ITTmN66i9MRrOZcY8fSzsKoJQuERRyGm7nacTDjNW/xf1Z/O83F1N2TYiBnq83+rZCuDMiF6xN4yoImhzohtX+nfO0u7e1z6JwmNmLdTJofCgrZm4MbNJWh/cuchbXQ9" />
+</div>
+			<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$slScriptManager', 'aspnetForm', ['tctl00$topNavControl$UserPanel$topNavUserPanel','','tctl00$mainColumnHolder$detailsUpdatePanel','','tctl00$mainColumnHolder$requestUpdatePanel','','tctl00$mainColumnHolder$tagsTabsContainer$tabPanelRestaurants$tagSeriesRestaurants$seriesUpdatePanel','','tctl00$mainColumnHolder$tagsTabsContainer$tabPanelCatering$tagSeriesCatering$seriesUpdatePanel',''], ['ctl00$slScriptManager',''], [], 90, 'ctl00');
+//]]>
+</script>
+<input type="hidden" name="ctl00$slScriptManager" id="ctl00_slScriptManager" />
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.setServerId("ctl00_slScriptManager", "ctl00$slScriptManager");
+Sys.Application._enableHistoryInScriptManager();
+//]]>
+</script>
+
+            
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header navbar-left">
+                <a class="navbar-brand" href="https://www.stocklayouts.com/"><img src="/images/stocklayouts-logo-reg.png" alt="StockLayouts" /></a>
+            </div>
+            <div class="navbar-header navbar-right visible-sm visible-md visible-lg">
+                <div class="navbar-form">
+                    <div onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ctl00_topNavControl_topSearchControl1_searchButton&#39;)">
+	
+    <div class="input-group">
+        <input name="ctl00$topNavControl$topSearchControl1$searchFeild" id="ctl00_topNavControl_topSearchControl1_searchFeild" class="form-control placeholder" type="search" placeholder="Find a Template" autocapitalize="none" />
+        <span class="input-group-btn">
+            <a id="ctl00_topNavControl_topSearchControl1_searchButton" class="btn btn-no-action" href="javascript:__doPostBack(&#39;ctl00$topNavControl$topSearchControl1$searchButton&#39;,&#39;&#39;)" style="border-left: 0;">
+                <span class="glyphicon glyphicon-search" aria-hidden="true" style="font-size: inherit; line-height: inherit;"></span>
+            </a>
+        </span>
+    </div>
+
+</div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar yamm navbar-inverse navbar-static-top">
+        <div class="container-fluid">
+            <div class="navbar-header navbar-left">
+                <button id="btnToggleMenu" type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="margin-right: 35px;">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-toggle collapsed" style="padding-top: 4px; margin-left: 25px;">
+                    <a href="/Order/Cart.aspx" style="color: #fff; text-decoration: none;"><span class="glyphicon glyphicon-shopping-cart cart" aria-hidden="true"></span>&nbsp;&nbsp;<span class="cart">0</span><br /></a>
+                </div>
+                <div class="navbar-header navbar-right visible-xs">
+                    <div class="navbar-form">
+                        <div onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ctl00_topNavControl_topSearchControl2_searchButton&#39;)">
+	
+    <div class="input-group">
+        <input name="ctl00$topNavControl$topSearchControl2$searchFeild" id="ctl00_topNavControl_topSearchControl2_searchFeild" class="form-control placeholder" type="search" placeholder="Find a Template" autocapitalize="none" />
+        <span class="input-group-btn">
+            <a id="ctl00_topNavControl_topSearchControl2_searchButton" class="btn btn-no-action" href="javascript:__doPostBack(&#39;ctl00$topNavControl$topSearchControl2$searchButton&#39;,&#39;&#39;)" style="border-left: 0;">
+                <span class="glyphicon glyphicon-search" aria-hidden="true" style="font-size: inherit; line-height: inherit;"></span>
+            </a>
+        </span>
+    </div>
+
+</div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="dropdown yamm-fw">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Templates<span class="glyphicon glyphicon-menu-down menu-down-arrow hidden-xs"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="container">
+                                    <ul class="multi-column-menu col-xs-6 col-sm-3 col-md-2 col-lg-2">
+                                        <li class="dropdown-header">By Product</li>
+                                        <li><a href="/Templates/Brochure/Brochure-Templates-Designs.aspx">Brochures</a></li>
+                                        <li><a href="/Templates/Tri-Fold-Brochure/Tri-Fold-Brochure-Templates-Designs.aspx"><span class="text-nowrap">Tri-Fold Brochures</span></a></li>
+                                        <li><a href="/Templates/Newsletter/Newsletter-Templates-Designs.aspx">Newsletters</a></li>
+                                        <li><a href="/Templates/Flyer/Flyer-Templates-Designs.aspx">Flyers</a></li>
+                                        <li><a href="/Templates/Print-Ad/Print-Ad-Templates-Designs.aspx">Print Ads</a></li>
+                                        <li><a href="/Templates/Postcard/Postcard-Templates-Designs.aspx">Postcards</a></li>
+                                        <li><a href="/Templates/Menu/Menu-Templates-Designs.aspx">Menus</a></li>
+                                        <li><a href="/Templates/Stationery/Stationery-Templates-Designs.aspx">Stationery</a></li>
+                                        <li><a href="/Templates/Business-Card/Business-Card-Templates-Designs.aspx">Business Cards</a></li>
+                                        <li><a href="/Templates/Letterhead/Letterhead-Templates-Designs.aspx">Letterheads</a></li>
+                                        <li><a href="/Templates/PowerPoint-Presentation/Presentation-Templates-Designs.aspx">Presentations</a></li>
+                                    </ul>
+                                    <ul class="multi-column-menu col-xs-6 col-sm-3 col-md-2 col-lg-2 border-right-blue">
+                                        <li class="dropdown-header">&nbsp;</li>
+                                        <li><a href="/Templates/Datasheet/Datasheet-Templates-Designs.aspx">Datasheets</a></li>
+                                        <li><a href="/Templates/Rack-Card/Rack-Card-Templates-Designs.aspx">Rack Cards</a></li>
+                                        <li><a href="/Templates/Poster/Poster-Templates-Designs.aspx">Posters</a></li>
+                                        <li><a href="/Templates/Pamphlet/Pamphlet-Templates-Designs.aspx">Pamphlets</a></li>
+                                        <li><a href="/Templates/Leaflet/Leaflet-Templates-Designs.aspx">Leaflets</a></li>
+                                        <li><a href="/Templates/Sales-Sheet/Sales-Sheet-Templates-Designs.aspx">Sales Sheets</a></li>
+                                        <li><a href="/Templates/Gift-Certificate/Gift-Certificate-Templates-Designs.aspx">Gift Certificates</a></li>
+                                        <li><a href="/Templates/Invitation/Invitation-Templates-Designs.aspx">Invitations</a></li>
+                                        <li><a href="/Templates/Announcement/Announcement-Templates-Designs.aspx">Announcements</a></li>
+                                        <li><a href="/Templates/Greeting-Card/Greeting-Card-Templates-Designs.aspx">Greeting Cards</a></li>
+                                        <li><a href="/Templates/NewReleases.aspx">New Releases</a></li>
+                                    </ul>
+                                    <ul class="multi-column-menu col-xs-12 visible-xs">
+                                        <li><hr style="border-top: solid 1px #d2e1f4; margin: 10px 0 5px;" /></li>
+                                    </ul>
+                                    <ul class="multi-column-menu col-xs-6 col-sm-3 col-md-2 col-lg-2">
+                                        <li class="dropdown-header">By Industry</li>
+                                        <li><a href="/Templates/Professional-Services/Professional-Services-Templates-Designs.aspx">Professional Services</a></li>
+                                        <li><a href="/Templates/Financial-Services/Financial-Services-Templates-Designs.aspx">Financial Services</a></li>
+                                        <li><a href="/Templates/Real-Estate/Real-Estate-Templates-Designs.aspx">Real Estate</a></li>
+                                        <li><a href="/Templates/Medical-Health-Care/Medical-Health-Care-Templates-Designs.aspx">Medical &amp; Health Care</a></li>
+                                        <li><a href="/Templates/Technology/Technology-Templates-Designs.aspx">Technology</a></li>
+                                        <li><a href="/Templates/Sports-Fitness/Sports-Fitness-Templates-Designs.aspx">Sports &amp; Fitness</a></li>
+                                        <li><a href="/Templates/Health-Beauty/Health-Beauty-Templates-Designs.aspx">Health &amp; Beauty</a></li>
+                                        <li><a href="/Templates/Education-Training/Education-Training-Templates-Designs.aspx">Education &amp; Training</a></li>
+                                        <li><a href="/Templates/Food-Beverage/Food-Beverage-Templates-Designs.aspx">Food &amp; Restaurant</a></li>
+                                        <li><a href="/Templates/Religious-Organizations/Religious-Organizations-Templates-Designs.aspx">Religious &amp; Church</a></li>
+                                        <li class="visible-xs visible-sm"><a href="/Templates/Business-Template-Industry-Categories.aspx">All Industries &nbsp;&gt;</a></li>
+                                    </ul>
+                                    <ul class="hidden-xs hidden-sm multi-column-menu col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                                        <li class="dropdown-header">&nbsp;</li>
+                                        <li><a href="/Templates/Agriculture-Farming/Agriculture-Farming-Templates-Designs.aspx">Agriculture &amp; Farming</a></li>
+                                        <li><a href="/Templates/Pets-Animals/Pets-Animals-Templates-Designs.aspx">Animals &amp; Pet Care</a></li>
+                                        <li><a href="/Templates/Automotive-Transportation/Automotive-Transportation-Templates-Designs.aspx">Auto &amp; Transport</a></li>
+                                        <li><a href="/Templates/Child-Care/Child-Care-Templates-Designs.aspx">Child Care</a></li>
+                                        <li><a href="/Templates/Construction/Construction-Templates-Designs.aspx">Construction</a></li>
+                                        <li><a href="/Templates/Energy-Environment/Energy-Environment-Templates-Designs.aspx">Energy &amp; Environment</a></li>
+                                        <li><a href="/Templates/Health-Beauty/Health-Beauty-Templates-Designs.aspx">Health &amp; Beauty</a></li>
+                                        <li><a href="/Templates/Home-Maintenance/Home-Maintenance-Templates-Designs.aspx">Home Maintenance</a></li>
+                                        <li><a href="/Templates/Insurance/Insurance-Templates-Designs.aspx">Insurance</a></li>
+                                        <li><a href="/Templates/Legal-Services/Legal-Services-Templates-Designs.aspx">Legal Services</a></li>
+                                        <li><a href="/Templates/Manufacturing/Manufacturing-Templates-Designs.aspx">Manufacturing</a></li>
+                                    </ul>
+                                    <ul class="hidden-xs hidden-sm multi-column-menu col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                                        <li class="dropdown-header">&nbsp;</li>
+                                        <li><a href="/Templates/Music-Arts/Music-Arts-Templates-Designs.aspx">Music &amp; Arts</a></li>
+                                        <li><a href="/Templates/Non-Profit/Non-Profit-Templates-Designs.aspx">Non Profit</a></li>
+                                        <li><a href="/Templates/Government-Public-Safety/Government-Public-Safety-Templates-Designs.aspx">Politics &amp; Public Safety</a></li>
+                                        <li><a href="/Templates/Retail-Sales/Retail-Sales-Templates-Designs.aspx">Retail &amp; Sales</a></li>
+                                        <li><a href="/Templates/Travel-Tourism/Travel-Tourism-Templates-Designs.aspx">Travel &amp; Tourism</a></li>
+                                        <li><a href="/Templates/Wedding-Event-Planning/Wedding-Event-Planning-Templates-Designs.aspx">Wedding &amp; Events</a></li>
+                                        <li><a href="/Templates/Business-Events/Business-Events-Templates-Designs.aspx">Business Events</a></li>
+                                        <li><a href="/Templates/Holiday-Seasonal/Holiday-Seasonal-Templates-Designs.aspx">Seasonal &amp; Holiday</a></li>
+                                        <li><a href="/Templates/Print-Design/Print-Design-Templates-Designs.aspx">Print Design</a></li>
+                                        <li><a href="/Templates/Graphic-Design/Graphic-Design-Templates-Designs.aspx">Graphic Design</a></li>
+                                        <li><a href="/Templates/Business-Marketing/Business-Marketing-Templates-Designs.aspx">Business Marketing</a></li>
+                                    </ul>
+                                    <ul class="multi-column-menu col-xs-6 col-sm-3 col-md-2 col-lg-2 border-left-blue">
+                                        <li class="dropdown-header">By Application</li>
+                                        <li><a href="/Templates/Adobe-InDesign/Adobe-InDesign-Templates-Designs.aspx">Adobe InDesign</a></li>
+                                        <li><a href="/Templates/Adobe-Illustrator/Adobe-Illustrator-Templates-Designs.aspx">Adobe Illustrator</a></li>
+                                        <li><a href="/Templates/Microsoft-Publisher/Microsoft-Publisher-Templates-Designs.aspx">Microsoft Publisher</a></li>
+                                        <li><a href="/Templates/Microsoft-Word/Microsoft-Word-Templates-Designs.aspx">Microsoft Word</a></li>
+                                        <li><a href="/Templates/Microsoft-PowerPoint/Microsoft-PowerPoint-Templates-Designs.aspx">Microsoft PowerPoint</a></li>
+                                        <li><a href="/Templates/Apple-iWork-Pages/Apple-iWork-Pages-Templates-Designs.aspx">Apple iWork Pages</a></li>
+                                        <li><a href="/Templates/Quark-QuarkXPress/Quark-QuarkXPress-Templates-Designs.aspx">QuarkXPress</a></li>
+                                        <li><a href="/Templates/Corel-CorelDraw/Corel-CorelDraw-Templates-Designs.aspx">CorelDraw</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown yamm-fw">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">How It Works<span class="glyphicon glyphicon-menu-down menu-down-arrow hidden-xs"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="container">
+                                    <ul class="multi-column-menu col-sm-3 col-md-3 col-lg-2" style="height: auto;">
+                                        <li class="dropdown-header">Product Details</li>
+                                        <li><a href="/Templates/How-Templates-Work.aspx">How Templates Work</a></li>
+                                        <li><a href="/Templates/Template-Features.aspx">Template Features</a></li>
+                                        <li><a href="/Templates/Template-Subscriptions.aspx">Subscription Plans</a></li>
+                                        <li><a href="/Solutions/Web-To-Print-Applications-Templates.aspx">Extended Licenses</a></li>
+                                    </ul>
+                                    <ul class="multi-column-menu col-sm-3 col-md-3 col-lg-2" style="height: auto;">
+                                        <li class="visible-xs"><hr style="border-top: solid 1px #d2e1f4; margin: 10px 0 5px;" /></li>
+                                        <li class="dropdown-header">Support</li>
+                                        <li><a href="/Support/Faqs.aspx">Top 10 FAQs</a></li>
+                                        <li><a href="/Support/Resources/EditingGuide.aspx">Template Editing Guide</a></li>
+                                        <li><a href="/Templates/How-To-Video-Tutorials.aspx">Video Tutorials</a></li>
+                                        <li><a href="/Support/HelpGuide.aspx">Help Guide</a></li>
+                                        <li><a href="/Support/Resources.aspx">Design Resources</a></li>
+                                        <li><a href="/Templates/Graphic-Design-PDF-Portfolio-Catalog.aspx">Free Catalog of Designs</a></li>
+                                        <li><a href="/Support/Testimonials.aspx">Customer Examples</a></li>
+                                        <li><a href="https://graphicdesign.stocklayouts.com/" target="_blank">StockLayouts Blog</a></li>
+                                    </ul>
+                                    <ul class="multi-column-menu col-sm-3 col-md-3 col-lg-2" style="height: auto;">
+                                        <li class="visible-xs"><hr style="border-top: solid 1px #d2e1f4; margin: 10px 0 5px;" /></li>
+                                        <li class="dropdown-header">Solutions</li>
+                                        <li><a href="/Solutions/Small-Business-Marketing.aspx">Business Owners</a></li>
+                                        <li><a href="/Solutions/Graphic-Designs.aspx">Graphic Designers</a></li>
+                                        <li><a href="/Solutions/Desktop-Publishing.aspx">Desktop Publishers</a></li>
+                                        <li><a href="/Solutions/Marketing-Materials.aspx">Marketing Professionals</a></li>
+                                        <li><a href="/Solutions/Color-Printing.aspx">Printing Companies</a></li>
+                                        <li><a href="/Solutions/Web-To-Print-Applications-Templates.aspx">Web-to-Print Templates</a></li>
+                                    </ul>
+                                    <ul class="multi-column-menu col-sm-3 col-md-3 col-lg-2" style="height: auto;">
+                                        <li class="visible-xs"><hr style="border-top: solid 1px #d2e1f4; margin: 10px 0 5px;" /></li>
+                                        <li class="dropdown-header">Make a Design</li>
+                                        <li><a href="/Templates/Brochure/Make-A-Brochure-Design.aspx">Brochures</a></li>
+                                        <li><a href="/Templates/Flyer/Make-A-Flyer-Design.aspx">Flyers</a></li>
+                                        <li><a href="/Templates/Newsletter/Make-A-Newsletter-Design.aspx">Newsletters</a></li>
+                                        <li><a href="/Templates/Postcard/Make-A-Postcard-Design.aspx">Postcards</a></li>
+                                        <li><a href="/Templates/Print-Ad/Make-A-Print-Ad-Design.aspx">Advertisements</a></li>
+                                        <li><a href="/Templates/Menu/Make-A-Poster-Design.aspx">Posters</a></li>
+                                        <li><a href="/Templates/Menu/Make-A-Menu-Design.aspx">Menus</a></li>
+                                        <li><a href="/Templates/Menu/Make-A-Business-Card-Design.aspx">Business Cards</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="/Templates/Free-Templates/Free-Sample-Templates.aspx"><span style="white-space: nowrap;">Free Templates</span></a></li>
+                    <li><a href="/Templates/Template-Pricing.aspx">Pricing</a></li>
+                </ul>
+                <div id="ctl00_topNavControl_UserPanel_topNavUserPanel">
+	
+	    <div id="ctl00_topNavControl_UserPanel_notLoggedInPanel">
+		
+            <ul class="nav navbar-nav navbar-right" style="position: relative;">
+                <li><a class="hidden-xs" href="/Order/Cart.aspx"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true" style="margin-right: 5px;"></span>0</a></li>
+                <li><a href="/Account/Login.aspx"><span class="glyphicon glyphicon-user hidden-xs" aria-hidden="true" style="margin-right: 5px;"></span>Sign in</a></li>
+            </ul>
+	    
+	</div>
+	    
+    
+</div>
+
+
+            </div>
+        </div>
+    </nav>
+
+
+            
+    <div class="container" style="position: relative;">
+        
+	    
+	    <input type="hidden" name="ctl00$mainColumnHolder$doesCors" id="ctl00_mainColumnHolder_doesCors" />
+
+        <div>
+            <div id="ctl00_mainColumnHolder_bcPageTop_divBreadCrumbContainer" class=""><span class=""></span><span><a href="javascript:__doPostBack(&#39;ctl00$mainColumnHolder$bcPageTop$ctl02&#39;,&#39;&#39;)">All Templates</a>&nbsp;&nbsp;&gt;&nbsp; <span style="color:#0085cc;">Bakery & Cupcake Shop</span></span></div>
+
+        </div>
+        <hr class="visible-xs" style="margin: 10px 0 0;" />
+		<input id="currentShortID" type="hidden" name="currentShortID" value="FB0191501" />
+	    <div id="ctl00_mainColumnHolder_detailsUpdatePanel">
+	
+		        <div class="row row-dense">
+                    <div class="col-xs-12" style="margin-top: .3em;">
+                        <h1 class="product-title">
+                            Bakery & Cupcake Shop Flyer Template
+                        </h1>
+                        <hr class="hidden-xs" style="margin: 10px 0 10px;" />
+                    </div>
+                </div>
+
+                <div style="position: relative;">
+                    <div id="ctl00_mainColumnHolder_requestUpdatePanel">
+		
+	                        
+	                    
+	</div>
+                </div>
+
+                <div class="row row-dense">
+                    <div class="col-xs-12 col-sm-8 col-md-8 pull-left" style="position: relative;">
+                        <div class="pin-container pull-right">
+                            <div class="pin-button">
+                                <div onclick='window.open(href="//www.pinterest.com/pin/create/button/?url=https://www.stocklayouts.com/Templates/Flyer/Bakery-Cupcake-Shop-Flyer-Template-Design-FB0191501.aspx&media=https://www.stocklayouts.com/images/superviews/FB0191501-S.jpg&description=Bakery and Cupcake Shop Flyer Template Design by StockLayouts","Pin It","width=750,height=320").focus();return false'>
+                                    <img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_white_20.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 1em; margin-bottom: .3em;">
+                            <a href="/Downloads/PDF/Preview/FB0191501-Preview.pdf" target="_blank" 
+                                onclick="ga('send', 'pageview', '/Downloads/PDF/Preview/FB0191501-Preview.pdf');">
+                                <img class="img-responsive center-block" src="/images/superviews/FB0191501-S.jpg" title="Click to download a full-size preview PDF"
+                                alt="Bakery & Cupcake Shop Flyer Template Design" style="max-width: 700px; width: 100%;" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 pull-right product-detail-panel">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12">
+                                <p class="product-detail" style="margin-bottom: 4px;">
+                                    FB0191501<br />
+                                    <span class="hidden-sm">Page</span> Size:&nbsp;&nbsp; 8.5x11<br />
+                                    Fold <span class="hidden-sm">Type</span>:&nbsp;&nbsp; No Fold
+                                </p>
+                                <p style="margin-bottom: 6px;">
+                                    File Formats:&nbsp;&nbsp; <span id="ctl00_mainColumnHolder_fileType">Adobe InDesign, Illustrator, Microsoft&nbsp;Word, Publisher, Apple Pages, QuarkXPress, CorelDraw</span>
+                                </p>
+                                <p style="margin-bottom: 0;">
+                                    <a href="#templateDetails"><span style="text-decoration:underline;">Template details</span><span class="glyphicon glyphicon-menu-down menu-down-arrow"></span></a>
+                                </p>
+                            </div>
+                            <div id="ctl00_mainColumnHolder_pricingPanel">
+		
+                                <div class="col-xs-12 col-sm-12">
+                                    <div class="product-info-panel">
+                                        <p style="margin-bottom: .6em;">
+                                            <span class="product-price">$69</span>
+                                        </p>
+                                        <p style="margin-bottom: 15px;">
+                                            <a id="ctl00_mainColumnHolder_addTemplateButton" class="btn btn-success btn-full-width" role="button" href="javascript:__doPostBack(&#39;ctl00$mainColumnHolder$addTemplateButton&#39;,&#39;&#39;)">
+                                            Add to Cart<span class="glyphicon glyphicon-menu-right btn-arrow"></span></a>
+                                        </p>
+                                    </div>
+                                    <div class="product-info-panel">
+                                        <p style="margin-bottom: .6em;">
+                                            <span class="small-heading">Or&nbsp;</span> <span class="subscribe">Subscribe & Save!</span>
+                                        </p>
+                                        <p>
+                                            <a href="/Templates/Template-Subscriptions.aspx" class="btn btn-success btn-full-width" role="button">
+                                            Learn More<span class="glyphicon glyphicon-menu-right btn-arrow"></span></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            
+	</div>
+                            <div id="ctl00_mainColumnHolder_loginSubPanel">
+		
+                                <div class="col-xs-12 col-sm-12 product-info-panel">
+                                    <p>
+                                        Already subscribed? &nbsp;<span style="text-decoration:underline;"><a id="ctl00_mainColumnHolder_loginLink" href="javascript:__doPostBack(&#39;ctl00$mainColumnHolder$loginLink&#39;,&#39;&#39;)">Sign in</a></span>
+                                    </p>
+                                </div>
+                            
+	</div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <hr />
+                
+	            <div id="ctl00_mainColumnHolder_matchingTemplatePanel">
+		
+                    <div class="row row-dense">
+                        <div class="col-xs-12">
+                            <div>
+                                <h2 class="h3" style="display: inline-block; margin-right: 20px;">
+                                    Bakery & Cupcake Shop Matching Templates
+                                </h2>
+                            </div>
+
+                            
+
+                            <div class="row">
+                                <div class="col-xs-12 pull-left">
+                                    
+                                            <div id="ctl00_mainColumnHolder_matchingTemplatesListView_groupPlaceholderContainer" class="row row-dense matching-cell">
+                                                
+                                            <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl0_Td3" class="col-xs-6 col-sm-4 col-md-4 col-lg-3">
+                                                <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl0_itemPlaceholderContainer">
+                                                    
+                                            <div class="thumbnail">
+                                                <a href="/Templates/Business-Card-Letterhead/Bakery-Cupcake-Shop-Business-Card-Letterhead-Template-Design-FB0190401.aspx">
+                                                    <img src="/images/fullviews/FB0190401-F.jpg" alt="Bakery & Cupcake Shop Business Card & Letterhead Template Design" />
+                                                </a>
+                                                <h3 class="thumb-caption-lg">
+                                                    <a href="/Templates/Business-Card-Letterhead/Bakery-Cupcake-Shop-Business-Card-Letterhead-Template-Design-FB0190401.aspx">Business Card & Letterhead</a> &nbsp;
+                                                    <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl0_ctl00_matchingPricePanel" class="visible-xs-inline visible-sm-inline visible-md-inline visible-lg-inline">
+			
+                                                        <span class="thumb-caption-lg">$39</span>
+                                                    
+		</div>
+                                                </h3>
+                                            </div>
+	                                    
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+	                                    
+                                            <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl1_Td3" class="col-xs-6 col-sm-4 col-md-4 col-lg-3">
+                                                <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl1_itemPlaceholderContainer">
+                                                    
+                                            <div class="thumbnail">
+                                                <a href="/Templates/Flyer-Ad/Bakery-Cupcake-Shop-Flyer-Ad-Template-Design-FB0190701.aspx">
+                                                    <img src="/images/fullviews/FB0190701-F.jpg" alt="Bakery & Cupcake Shop Flyer & Ad Template Design" />
+                                                </a>
+                                                <h3 class="thumb-caption-lg">
+                                                    <a href="/Templates/Flyer-Ad/Bakery-Cupcake-Shop-Flyer-Ad-Template-Design-FB0190701.aspx">Flyer & Ad</a> &nbsp;
+                                                    <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl1_ctl00_matchingPricePanel" class="visible-xs-inline visible-sm-inline visible-md-inline visible-lg-inline">
+			
+                                                        <span class="thumb-caption-lg">$99</span>
+                                                    
+		</div>
+                                                </h3>
+                                            </div>
+	                                    
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+	                                    
+                                            <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl2_Td3" class="col-xs-6 col-sm-4 col-md-4 col-lg-3">
+                                                <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl2_itemPlaceholderContainer">
+                                                    
+                                            <div class="thumbnail">
+                                                <a href="/Templates/Poster/Bakery-Cupcake-Shop-Poster-Template-Design-FB0190601.aspx">
+                                                    <img src="/images/fullviews/FB0190601-F.jpg" alt="Bakery & Cupcake Shop Poster Template Design" />
+                                                </a>
+                                                <h3 class="thumb-caption-lg">
+                                                    <a href="/Templates/Poster/Bakery-Cupcake-Shop-Poster-Template-Design-FB0190601.aspx">Poster</a> &nbsp;
+                                                    <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl2_ctl00_matchingPricePanel" class="visible-xs-inline visible-sm-inline visible-md-inline visible-lg-inline">
+			
+                                                        <span class="thumb-caption-lg">$69</span>
+                                                    
+		</div>
+                                                </h3>
+                                            </div>
+	                                    
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+	                                    
+                                            <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl3_Td3" class="col-xs-6 col-sm-4 col-md-4 col-lg-3">
+                                                <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl3_itemPlaceholderContainer">
+                                                    
+                                            <div class="thumbnail">
+                                                <a href="/Templates/Menu/Bakery-Cupcake-Shop-Menu-Template-Design-FB0190501.aspx">
+                                                    <img src="/images/fullviews/FB0190501-F.jpg" alt="Bakery & Cupcake Shop Menu Template Design" />
+                                                </a>
+                                                <h3 class="thumb-caption-lg">
+                                                    <a href="/Templates/Menu/Bakery-Cupcake-Shop-Menu-Template-Design-FB0190501.aspx">Menu</a> &nbsp;
+                                                    <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl3_ctl00_matchingPricePanel" class="visible-xs-inline visible-sm-inline visible-md-inline visible-lg-inline">
+			
+                                                        <span class="thumb-caption-lg">$99</span>
+                                                    
+		</div>
+                                                </h3>
+                                            </div>
+	                                    
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+	                                    
+                                            <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl4_Td3" class="col-xs-6 col-sm-4 col-md-4 col-lg-3">
+                                                <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl4_itemPlaceholderContainer">
+                                                    
+                                            <div class="thumbnail">
+                                                <a href="/Templates/Flyer/Bakery-Cupcake-Shop-Flyer-Template-Design-FB0191501.aspx">
+                                                    <img src="/images/fullviews/FB0191501-F.jpg" alt="Bakery & Cupcake Shop Flyer Template Design" />
+                                                </a>
+                                                <h3 class="thumb-caption-lg">
+                                                    <a href="/Templates/Flyer/Bakery-Cupcake-Shop-Flyer-Template-Design-FB0191501.aspx">Flyer</a> &nbsp;
+                                                    <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl4_ctl00_matchingPricePanel" class="visible-xs-inline visible-sm-inline visible-md-inline visible-lg-inline">
+			
+                                                        <span class="thumb-caption-lg">$69</span>
+                                                    
+		</div>
+                                                </h3>
+                                            </div>
+	                                    
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+	                                    
+                                            <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl5_Td3" class="col-xs-6 col-sm-4 col-md-4 col-lg-3">
+                                                <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl5_itemPlaceholderContainer">
+                                                    
+                                            <div class="thumbnail">
+                                                <a href="/Templates/Gift-Certificate/Bakery-Cupcake-Shop-Gift-Certificate-Template-Design-FB0192601.aspx">
+                                                    <img src="/images/fullviews/FB0192601-F.jpg" alt="Bakery & Cupcake Shop Gift Certificate Template Design" />
+                                                </a>
+                                                <h3 class="thumb-caption-lg">
+                                                    <a href="/Templates/Gift-Certificate/Bakery-Cupcake-Shop-Gift-Certificate-Template-Design-FB0192601.aspx">Gift Certificate</a> &nbsp;
+                                                    <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl5_ctl00_matchingPricePanel" class="visible-xs-inline visible-sm-inline visible-md-inline visible-lg-inline">
+			
+                                                        <span class="thumb-caption-lg">$29</span>
+                                                    
+		</div>
+                                                </h3>
+                                            </div>
+	                                    
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+	                                    
+                                            <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl6_Td3" class="col-xs-6 col-sm-4 col-md-4 col-lg-3">
+                                                <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl6_itemPlaceholderContainer">
+                                                    
+                                            <div class="thumbnail">
+                                                <a href="/Templates/Tri-Fold-Brochure/Bakery-Cupcake-Shop-Tri-Fold-Brochure-Template-Design-FB0192301.aspx">
+                                                    <img src="/images/fullviews/FB0192301-F.jpg" alt="Bakery & Cupcake Shop Tri Fold Brochure Template Design" />
+                                                </a>
+                                                <h3 class="thumb-caption-lg">
+                                                    <a href="/Templates/Tri-Fold-Brochure/Bakery-Cupcake-Shop-Tri-Fold-Brochure-Template-Design-FB0192301.aspx">Tri Fold Brochure</a> &nbsp;
+                                                    <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl6_ctl00_matchingPricePanel" class="visible-xs-inline visible-sm-inline visible-md-inline visible-lg-inline">
+			
+                                                        <span class="thumb-caption-lg">$99</span>
+                                                    
+		</div>
+                                                </h3>
+                                            </div>
+	                                    
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+	                                    
+                                            <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl7_Td3" class="col-xs-6 col-sm-4 col-md-4 col-lg-3">
+                                                <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl7_itemPlaceholderContainer">
+                                                    
+                                            <div class="thumbnail">
+                                                <a href="/Templates/Rack-Card/Bakery-Cupcake-Shop-Rack-Card-Template-Design-FB0191601.aspx">
+                                                    <img src="/images/fullviews/FB0191601-F.jpg" alt="Bakery & Cupcake Shop Rack Card Template Design" />
+                                                </a>
+                                                <h3 class="thumb-caption-lg">
+                                                    <a href="/Templates/Rack-Card/Bakery-Cupcake-Shop-Rack-Card-Template-Design-FB0191601.aspx">Rack Card</a> &nbsp;
+                                                    <div id="ctl00_mainColumnHolder_matchingTemplatesListView_ctrl7_ctl00_matchingPricePanel" class="visible-xs-inline visible-sm-inline visible-md-inline visible-lg-inline">
+			
+                                                        <span class="thumb-caption-lg">$69</span>
+                                                    
+		</div>
+                                                </h3>
+                                            </div>
+	                                    
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+	                                    
+                                            </div>
+	                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+	            
+	</div>
+            
+</div>
+
+	    <div id="ctl00_mainColumnHolder_tagsPanel">
+	
+            <h2 class="h3 black" style="margin-top: .5em; margin-bottom: .7em;">
+                More design ideas and examples
+            </h2>
+
+	        <div id="ctl00_mainColumnHolder_tagsTabsContainer" class="ajax__tab_xp0" style="visibility:hidden;">
+		<div id="ctl00_mainColumnHolder_tagsTabsContainer_header">
+			<span id="__tab_ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants">Restaurants</span><span id="__tab_ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering">Catering</span>
+		</div><div id="ctl00_mainColumnHolder_tagsTabsContainer_body">
+			<div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants" style="display:none;visibility:hidden;">
+				<div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants_tagSeriesRestaurants_seriesUpdatePanel">
+					
+		<span id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants_tagSeriesRestaurants_seriesPager"></span>
+		
+				<div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants_tagSeriesRestaurants_seriesForTag_groupPlaceholderContainer" class="row row-dense single-column-cell">
+					
+				<div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants_tagSeriesRestaurants_seriesForTag_ctrl0_Td3" class="col-xs-6 col-sm-4">
+				    <div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants_tagSeriesRestaurants_seriesForTag_ctrl0_itemPlaceholderContainer">
+					    
+			    
+<div class="thumbnail">
+    <a href='/Templates/Menu/Family-Restaurant-Menu-Template-Design-FB0290501.aspx'>
+        <img src="/images/fullviews/FB0290501-F.jpg" alt="Family Restaurant Menu Template" />
+    </a>
+    <h3 class="thumb-caption">
+        <a href='/Templates/Menu/Family-Restaurant-Menu-Template-Design-FB0290501.aspx'>
+            Family Restaurant<br />
+            Menu
+        </a>
+    </h3>
+</div>
+
+
+
+
+			
+				    </div>
+				</div>
+				<div class="clear"></div>
+			
+				<div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants_tagSeriesRestaurants_seriesForTag_ctrl1_Td3" class="col-xs-6 col-sm-4">
+				    <div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants_tagSeriesRestaurants_seriesForTag_ctrl1_itemPlaceholderContainer">
+					    
+			    
+<div class="thumbnail">
+    <a href='/Templates/Menu/Mexican-Food-Cantina-Menu-Template-Design-FB0280501.aspx'>
+        <img src="/images/fullviews/FB0280501-F.jpg" alt="Mexican Food & Cantina Menu Template" />
+    </a>
+    <h3 class="thumb-caption">
+        <a href='/Templates/Menu/Mexican-Food-Cantina-Menu-Template-Design-FB0280501.aspx'>
+            Mexican Food & Cantina<br />
+            Menu
+        </a>
+    </h3>
+</div>
+
+
+
+
+			
+				    </div>
+				</div>
+				<div class="clear"></div>
+			
+				<div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants_tagSeriesRestaurants_seriesForTag_ctrl2_Td3" class="col-xs-6 col-sm-4">
+				    <div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants_tagSeriesRestaurants_seriesForTag_ctrl2_itemPlaceholderContainer">
+					    
+			    
+<div class="thumbnail">
+    <a href='/Templates/Flyer-Ad/Frozen-Yogurt-Shop-Flyer-Ad-Template-Design-FB0270701.aspx'>
+        <img src="/images/fullviews/FB0270701-F.jpg" alt="Frozen Yogurt Shop Flyer & Ad Template" />
+    </a>
+    <h3 class="thumb-caption">
+        <a href='/Templates/Flyer-Ad/Frozen-Yogurt-Shop-Flyer-Ad-Template-Design-FB0270701.aspx'>
+            Frozen Yogurt Shop<br />
+            Flyer & Ad
+        </a>
+    </h3>
+</div>
+
+
+
+
+			
+				    </div>
+				</div>
+				<div class="clear"></div>
+			
+				<div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants_tagSeriesRestaurants_seriesForTag_ctrl3_Td3" class="col-xs-6 col-sm-4">
+				    <div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants_tagSeriesRestaurants_seriesForTag_ctrl3_itemPlaceholderContainer">
+					    
+			    
+<div class="thumbnail">
+    <a href='/Templates/Brochure/Winery-Brochure-Template-Design-FB0260101.aspx'>
+        <img src="/images/fullviews/FB0260101-F.jpg" alt="Winery Brochure Template" />
+    </a>
+    <h3 class="thumb-caption">
+        <a href='/Templates/Brochure/Winery-Brochure-Template-Design-FB0260101.aspx'>
+            Winery<br />
+            Brochure
+        </a>
+    </h3>
+</div>
+
+
+
+
+			
+				    </div>
+				</div>
+				<div class="clear"></div>
+			
+				<div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants_tagSeriesRestaurants_seriesForTag_ctrl4_Td3" class="col-xs-6 col-sm-4">
+				    <div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants_tagSeriesRestaurants_seriesForTag_ctrl4_itemPlaceholderContainer">
+					    
+			    
+<div class="thumbnail">
+    <a href='/Templates/Menu/Pizza-Parlor-Menu-Template-Design-FB0250501.aspx'>
+        <img src="/images/fullviews/FB0250501-F.jpg" alt="Pizza Parlor Menu Template" />
+    </a>
+    <h3 class="thumb-caption">
+        <a href='/Templates/Menu/Pizza-Parlor-Menu-Template-Design-FB0250501.aspx'>
+            Pizza Parlor<br />
+            Menu
+        </a>
+    </h3>
+</div>
+
+
+
+
+			
+				    </div>
+				</div>
+				<div class="clear"></div>
+			
+				<div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants_tagSeriesRestaurants_seriesForTag_ctrl5_Td3" class="col-xs-6 col-sm-4">
+				    <div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants_tagSeriesRestaurants_seriesForTag_ctrl5_itemPlaceholderContainer">
+					    
+			    
+<div class="thumbnail">
+    <a href='/Templates/Brochure/Culinary-School-Brochure-Template-Design-FB0230101.aspx'>
+        <img src="/images/fullviews/FB0230101-F.jpg" alt="Culinary School Brochure Template" />
+    </a>
+    <h3 class="thumb-caption">
+        <a href='/Templates/Brochure/Culinary-School-Brochure-Template-Design-FB0230101.aspx'>
+            Culinary School<br />
+            Brochure
+        </a>
+    </h3>
+</div>
+
+
+
+
+			
+				    </div>
+				</div>
+				<div class="clear"></div>
+			
+				</div>
+			
+
+        <p class="text-center" style="margin-bottom: 20px;"><a href="/Templates/SearchResults.aspx?tag=Restaurants" id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants_tagSeriesRestaurants_viewMoreButton" class="btn btn-success" role="button">All Restaurants Templates<span class="glyphicon glyphicon-menu-right btn-arrow"></span></a></p>
+
+	
+				</div>
+
+
+			</div><div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering" style="display:none;visibility:hidden;">
+				<div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering_tagSeriesCatering_seriesUpdatePanel">
+					
+		<span id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering_tagSeriesCatering_seriesPager"></span>
+		
+				<div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering_tagSeriesCatering_seriesForTag_groupPlaceholderContainer" class="row row-dense single-column-cell">
+					
+				<div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering_tagSeriesCatering_seriesForTag_ctrl0_Td3" class="col-xs-6 col-sm-4">
+				    <div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering_tagSeriesCatering_seriesForTag_ctrl0_itemPlaceholderContainer">
+					    
+			    
+<div class="thumbnail">
+    <a href='/Templates/Brochure/Bridal-Show-Brochure-Template-Design-WE0020101.aspx'>
+        <img src="/images/fullviews/WE0020101-F.jpg" alt="Bridal Show Brochure Template" />
+    </a>
+    <h3 class="thumb-caption">
+        <a href='/Templates/Brochure/Bridal-Show-Brochure-Template-Design-WE0020101.aspx'>
+            Bridal Show<br />
+            Brochure
+        </a>
+    </h3>
+</div>
+
+
+
+
+			
+				    </div>
+				</div>
+				<div class="clear"></div>
+			
+				<div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering_tagSeriesCatering_seriesForTag_ctrl1_Td3" class="col-xs-6 col-sm-4">
+				    <div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering_tagSeriesCatering_seriesForTag_ctrl1_itemPlaceholderContainer">
+					    
+			    
+<div class="thumbnail">
+    <a href='/Templates/Brochure/Food-Catering-Brochure-Template-Design-FB0240101.aspx'>
+        <img src="/images/fullviews/FB0240101-F.jpg" alt="Food Catering Brochure Template" />
+    </a>
+    <h3 class="thumb-caption">
+        <a href='/Templates/Brochure/Food-Catering-Brochure-Template-Design-FB0240101.aspx'>
+            Food Catering<br />
+            Brochure
+        </a>
+    </h3>
+</div>
+
+
+
+
+			
+				    </div>
+				</div>
+				<div class="clear"></div>
+			
+				<div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering_tagSeriesCatering_seriesForTag_ctrl2_Td3" class="col-xs-6 col-sm-4">
+				    <div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering_tagSeriesCatering_seriesForTag_ctrl2_itemPlaceholderContainer">
+					    
+			    
+<div class="thumbnail">
+    <a href='/Templates/Menu/Artisan-Bakery-Menu-Template-Design-FB0140501.aspx'>
+        <img src="/images/fullviews/FB0140501-F.jpg" alt="Artisan Bakery Menu Template" />
+    </a>
+    <h3 class="thumb-caption">
+        <a href='/Templates/Menu/Artisan-Bakery-Menu-Template-Design-FB0140501.aspx'>
+            Artisan Bakery<br />
+            Menu
+        </a>
+    </h3>
+</div>
+
+
+
+
+			
+				    </div>
+				</div>
+				<div class="clear"></div>
+			
+				<div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering_tagSeriesCatering_seriesForTag_ctrl3_Td3" class="col-xs-6 col-sm-4">
+				    <div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering_tagSeriesCatering_seriesForTag_ctrl3_itemPlaceholderContainer">
+					    
+			    
+<div class="thumbnail">
+    <a href='/Templates/Brochure/Corporate-Event-Planner-Caterer-Brochure-Template-Design-FB0120101.aspx'>
+        <img src="/images/fullviews/FB0120101-F.jpg" alt="Corporate Event Planner & Caterer Brochure Template" />
+    </a>
+    <h3 class="thumb-caption">
+        <a href='/Templates/Brochure/Corporate-Event-Planner-Caterer-Brochure-Template-Design-FB0120101.aspx'>
+            Corporate Event Planner & Caterer<br />
+            Brochure
+        </a>
+    </h3>
+</div>
+
+
+
+
+			
+				    </div>
+				</div>
+				<div class="clear"></div>
+			
+				<div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering_tagSeriesCatering_seriesForTag_ctrl4_Td3" class="col-xs-6 col-sm-4">
+				    <div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering_tagSeriesCatering_seriesForTag_ctrl4_itemPlaceholderContainer">
+					    
+			    
+<div class="thumbnail">
+    <a href='/Templates/Brochure/Vineyard-Winery-Brochure-Template-Design-FB0080101.aspx'>
+        <img src="/images/fullviews/FB0080101-F.jpg" alt="Vineyard & Winery Brochure Template" />
+    </a>
+    <h3 class="thumb-caption">
+        <a href='/Templates/Brochure/Vineyard-Winery-Brochure-Template-Design-FB0080101.aspx'>
+            Vineyard & Winery<br />
+            Brochure
+        </a>
+    </h3>
+</div>
+
+
+
+
+			
+				    </div>
+				</div>
+				<div class="clear"></div>
+			
+				<div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering_tagSeriesCatering_seriesForTag_ctrl5_Td3" class="col-xs-6 col-sm-4">
+				    <div id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering_tagSeriesCatering_seriesForTag_ctrl5_itemPlaceholderContainer">
+					    
+			    
+<div class="thumbnail">
+    <a href='/Templates/Brochure/Wedding-Event-Planning-Brochure-Template-Design-GB0450101.aspx'>
+        <img src="/images/fullviews/GB0450101-F.jpg" alt="Wedding & Event Planning Brochure Template" />
+    </a>
+    <h3 class="thumb-caption">
+        <a href='/Templates/Brochure/Wedding-Event-Planning-Brochure-Template-Design-GB0450101.aspx'>
+            Wedding & Event Planning<br />
+            Brochure
+        </a>
+    </h3>
+</div>
+
+
+
+
+			
+				    </div>
+				</div>
+				<div class="clear"></div>
+			
+				</div>
+			
+
+        <p class="text-center" style="margin-bottom: 20px;"><a href="/Templates/SearchResults.aspx?tag=Catering" id="ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering_tagSeriesCatering_viewMoreButton" class="btn btn-success" role="button">All Catering Templates<span class="glyphicon glyphicon-menu-right btn-arrow"></span></a></p>
+
+	
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+	    
+</div>
+
+        <a id="templateDetails"></a>
+        <div class="row" style="background-color: #f5f9ff; padding: 20px 0;">
+            <div class="hidden-xs hidden-sm col-md-4 col-md-push-8 col-lg-4 col-lg-push-7" style="margin-top: 20px;">
+                <img class="img-responsive center block" src="/images/template-highlights-image.png" alt="Template Design Highlights" />
+            </div>
+            <div class="col-sm-12 col-md-8 col-md-pull-4 col-lg-offset-1 col-lg-7 col-lg-pull-4">
+                <h2 class="h3" style="margin-top: .4em; margin-bottom: .4em;">
+                    Template details
+                </h2>
+                <div class="checklist">
+                    <ul class="checklist">
+                        <li class="checklist-margin">Easy-to-customize, full-color page layouts and graphics files.</li>
+                        <li class="checklist-margin">High-resolution photos, original artwork and logo designs included.</li>
+                        <li class="checklist-margin">Instant downloads, 24/7 online access, all file formats. Compatible with:<br />
+                            <div style="height: 3px;"></div>
+                            <ul class="list-unstyled pull-left" style="margin-right: 20px;">
+                                <li>Adobe InDesign CS4, CS5, CS6, CC</li>
+                                <li>Adobe Illustrator CS4, CS5, CS6, CC</li>
+                                <li>QuarkXPress 2015, 2016</li>
+                                <li>CorelDraw X3, X4, X5, X6, X7, X8</li>
+                            </ul>
+                            <ul class="list-unstyled pull-left">
+                                <li>Microsoft Publisher &rsquo;07, &rsquo;10, &rsquo;13, &rsquo;16</li>
+                                <li>Microsoft Word &rsquo;07, &rsquo;10, &rsquo;13, &rsquo;16 <span class="text-nowrap">&nbsp;&nbsp; (Mac &rsquo;08, &rsquo;11, &rsquo;16)</span></li>
+                                <li>Apple iWork Pages 4, 5, 6</li>
+                                <li>Microsoft PowerPoint &rsquo;07, &rsquo;10, &rsquo;13, &rsquo;16</li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </li>
+                        <li class="checklist-margin">Precisely executed, suitable for commercial printing or digital output.</li>
+                        <li class="checklist-margin">Suggested messaging for headings. Replace "Latin" placeholder text with your own copy.</li>
+                        <li class="checklist-margin">Layout files use standard system fonts. Decorative text supplied as artwork. Fonts&nbsp;are&nbsp;not&nbsp;included.<br />
+                        <div style="height: 4px;"></div>
+                        Recommended fonts for this layout:<br />
+                            
+                                    <div class="row row-dense">
+                                        <div style="margin-top: 2px;">
+                                            
+                                    <div class="col-xs-12 col-sm-6 col-md-4">
+                                        BPScript
+                                    </div>
+                                
+                                    <div class="col-xs-12 col-sm-6 col-md-4">
+                                        Cubano
+                                    </div>
+                                
+                                    <div class="col-xs-12 col-sm-6 col-md-4">
+                                        Pusab
+                                    </div>
+                                
+                                    <div class="col-xs-12 col-sm-6 col-md-4">
+                                        Ubuntu Condensed
+                                    </div>
+                                
+                                    <div class="col-xs-12 col-sm-6 col-md-4">
+                                        UnicornNF
+                                    </div>
+                                
+                                        </div>
+                                    </div>
+                                
+                        </li>
+                    </ul>
+                </div>
+                <p class="btn-success-link"><a href="/Templates/Template-Features.aspx">Template features &gt;</a></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="h3 black pull-left" style="margin-bottom: .2em;">
+                    Customer ratings and reviews
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <div style="min-height: 100px; overflow: hidden;" class="shopperapproved_widget sa_static sa_count4 sa_vertical sa_bgWhite sa_colorInherit sa_borderGray sa_topborder sa_FjY sa_flex sa_hidelinks sa_large"></div>
+            </div>
+            <div class="col-xs-12">
+                <p class="btn-success-link"><a href="/Customer-Reviews.aspx">See all verified purchase reviews &gt;</a></p>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="row">
+            <div class="col-xs-12">
+                <div style="height: 10px;"></div>
+                <h2 class="h2 text-center" style="margin-bottom: .5em;">
+                    Need designs for other projects?
+                </h2>
+            </div>
+        </div>
+        <div class="row row-dense">
+            <div class="col-xs-12">
+                <div id="slider" class="owl-carousel owl-theme thumbnail slider-caption">
+                    <div>
+                        <a href="/Templates/Brochure/Brochure-Templates-Designs-Library.aspx">
+                            <img src="/images/brochure-design-templates-s1.jpg" alt="Brochure Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Brochure/Brochure-Templates-Designs-Library.aspx">Brochures</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Tri-Fold-Brochure/Tri-Fold-Brochure-Templates-Designs-Library.aspx">
+                            <img src="/images/trifold-brochure-design-templates-s1.jpg" alt="Tri-Fold Brochure Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Tri-Fold-Brochure/Tri-Fold-Brochure-Templates-Designs-Library.aspx">Tri-Fold Brochures</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Flyer/Flyer-Templates-Designs-Library.aspx">
+                            <img src="/images/flyer-design-templates-s1.jpg" alt="Flyer Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Flyer/Flyer-Templates-Designs-Library.aspx">Flyers</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Print-Ad/Print-Ad-Templates-Designs-Library.aspx">
+                            <img src="/images/ads-design-templates-s1.jpg" alt="Print Ad Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Print-Ad/Print-Ad-Templates-Designs-Library.aspx">Print Ads</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Newsletter/Newsletter-Templates-Designs-Library.aspx">
+                            <img src="/images/newsletter-design-templates-s1.jpg" alt="Newsletter Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Newsletter/Newsletter-Templates-Designs-Library.aspx">Newsletters</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Postcard/Postcard-Templates-Designs-Library.aspx">
+                            <img src="/images/postcard-design-templates-s1.jpg" alt="Postcard Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Postcard/Postcard-Templates-Designs-Library.aspx">Postcards</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Business-Card/Business-Card-Templates-Designs-Library.aspx">
+                            <img src="/images/business-card-design-templates-s1.jpg" alt="Business Card Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Business-Card/Business-Card-Templates-Designs-Library.aspx">Business Cards</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Letterhead/Letterhead-Templates-Designs-Library.aspx">
+                            <img src="/images/letterhead-design-templates-s1.jpg" alt="Letterhead Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Letterhead/Letterhead-Templates-Designs-Library.aspx">Letterheads</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Datasheet/Datasheet-Templates-Designs-Library.aspx">
+                            <img src="/images/datasheet-design-templates-s1.jpg" alt="Datasheet Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Datasheet/Datasheet-Templates-Designs-Library.aspx">Datasheets</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/PowerPoint-Presentation/Presentation-Templates-Designs-Library.aspx">
+                            <img src="/images/presentation-design-templates-s1.jpg" alt="PowerPoint Presentation Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/PowerPoint-Presentation/Presentation-Templates-Designs-Library.aspx">Presentations</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Rack-Card/Rack-Card-Templates-Designs-Library.aspx">
+                            <img src="/images/rack-card-design-templates-s1.jpg" alt="Rack Card Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Rack-Card/Rack-Card-Templates-Designs-Library.aspx">Rack Cards</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Menu/Menu-Templates-Designs-Library.aspx">
+                            <img src="/images/menu-design-templates-s1.jpg" alt="Restaurant Menu Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Menu/Menu-Templates-Designs-Library.aspx">Restaurant Menus</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Pamphlet/Pamphlet-Templates-Designs-Library.aspx">
+                            <img src="/images/pamphlet-design-templates-s1.jpg" alt="Pamphlet Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Pamphlet/Pamphlet-Templates-Designs-Library.aspx">Pamphlets</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Leaflet/Leaflet-Templates-Designs-Library.aspx">
+                            <img src="/images/leaflet-design-templates-s1.jpg" alt="Leaflet Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Leaflet/Leaflet-Templates-Designs-Library.aspx">Leaflets</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Sales-Sheet/Sales-Sheet-Templates-Designs-Library.aspx">
+                            <img src="/images/sales-sheets-design-templates-s1.jpg" alt="Sales Sheet Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Sales-Sheet/Sales-Sheet-Templates-Designs-Library.aspx">Sales Sheets</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Poster/Poster-Templates-Designs-Library.aspx">
+                            <img src="/images/poster-design-templates-s1.jpg" alt="Poster Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Poster/Poster-Templates-Designs-Library.aspx">Posters</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Gift-Certificate/Gift-Certificate-Templates-Designs-Library.aspx">
+                            <img src="/images/gift-certificate-design-templates-s1.jpg" alt="Gift Certificate Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Gift-Certificate/Gift-Certificate-Templates-Designs-Library.aspx">Gift Certificates</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Invitation/Invitation-Templates-Designs-Library.aspx">
+                            <img src="/images/invitation-design-templates-s1.jpg" alt="Invitation Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Invitation/Invitation-Templates-Designs-Library.aspx">Invitations</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Announcement/Announcement-Templates-Designs-Library.aspx">
+                            <img src="/images/announcement-design-templates-s1.jpg" alt="Announcement Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Announcement/Announcement-Templates-Designs-Library.aspx">Announcements</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Greeting-Card/Greeting-Card-Templates-Designs-Library.aspx">
+                            <img src="/images/greeting-card-design-templates-s1.jpg" alt="Greeting Card Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Greeting-Card/Greeting-Card-Templates-Designs-Library.aspx">Greeting Cards</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Note-Card/Note-Card-Templates-Designs-Library.aspx">
+                            <img src="/images/note-card-design-templates-s1.jpg" alt="Note Card Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Note-Card/Note-Card-Templates-Designs-Library.aspx">Note Cards</a>
+                        </h3>
+                    </div>
+                    <div>
+                        <a href="/Templates/Stationery/Stationery-Templates-Designs-Library.aspx">
+                            <img src="/images/stationery-design-templates-s1.jpg" alt="Stationery Templates" /></a>
+                        <h3 class="slider-caption">
+                            <a href="/Templates/Stationery/Stationery-Templates-Designs-Library.aspx">Stationery</a>
+                        </h3>
+                    </div>
+                </div>
+                <p class="text-center"><a class="btn btn-success" href="/Templates/Graphic-Design/Graphic-Design-Templates-Designs-Library.aspx" role="button">
+                Browse All Templates<span class="glyphicon glyphicon-menu-right btn-arrow"></span></a></p>
+            </div>
+        </div>
+	</div>
+
+
+            
+
+<footer class="footer">
+    <div class="container" style="color: #5a5a5a;">
+        <div class="row" style="padding-top: 20px;">
+            <div class="col-xs-12 col-sm-6">
+                <div class="footer-link-panel pull-left" style="margin-bottom: .5em;">
+                    <h3 class="h4" style="margin-bottom: .2em;">Company</h3>
+                    <ul class="list-unstyled pull-left" style="margin-right: 30px;">
+                        <li><a href="/CompanyInfo.aspx">About us</a></li>
+                        <li><a href="/Support/Testimonials.aspx">Testimonials</a></li>
+                        <li><a href="/ContactUs.aspx">Contact us</a></li>
+                    </ul>
+                    <ul class="list-unstyled pull-left" style="margin-right: 30px;">
+                        <li><a href="/PressReleases.aspx">News</a></li>
+                        <li><a href="/Partners.aspx">Partners</a></li>
+                        <li><a href="/Licensing.aspx">Licensing</a></li>
+                    </ul>
+                    <ul class="list-unstyled pull-left">
+                        <li><a href="/Returns.aspx">Return policy</a></li>
+                        <li><a href="/Privacy.aspx">Privacy policy</a></li>
+                        <li><a href="/Terms.aspx">Terms of use</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <div class="footer-right-panel" style="margin-bottom: .3em;">
+                    <h3 class="h4" style="margin-bottom: .7em;">Get Connected</h3>
+                    <div onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ctl00_BottomNav_emailSubmitButton&#39;)">
+	
+                        <div class="input-group" data-defaultButton="ctl00_BottomNav_emailSubmitButton" style="max-width: 280px; margin-bottom: 20px;">
+                            <input name="ctl00$BottomNav$preRegisterEmailBox" id="ctl00_BottomNav_preRegisterEmailBox" class="form-control placeholder" type="email" placeholder="Sign up for special offers" autocapitalize="none" />
+                            <span class="input-group-btn">
+                                <a id="ctl00_BottomNav_emailSubmitButton" class="btn btn-no-action" href="javascript:__doPostBack(&#39;ctl00$BottomNav$emailSubmitButton&#39;,&#39;&#39;)" style="border-left: 0;">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="font-size: inherit; line-height: inherit;"></span>
+                                </a>
+                            </span>
+                        </div>
+                    
+</div>
+                    <ul class="list-unstyled list-inline">
+                        <li class="facebook"><a href="https://www.facebook.com/stocklayouts/" target="_blank"></a></li>
+                        <li class="google"><a href="https://plus.google.com/+stocklayouts/" target="_blank"></a></li>
+                        <li class="pinterest"><a href="https://www.pinterest.com/stocklayouts/" target="_blank"></a></li>
+                        <li class="twitter"><a href="https://www.twitter.com/stocklayouts/" target="_blank"></a></li>
+                        <li class="instagram"><a href="https://www.instagram.com/stocklayouts/" target="_blank"></a></li>
+                        <li class="blog"><a href="https://graphicdesign.stocklayouts.com/" target="_blank"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row row-dense">
+            <div class="col-xs-12">
+                <span class="small">Copyright &copy;2018 StockLayouts LLC. All rights reserved.</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript">
+    $(function() {
+        $(document).on("keypress", "div[data-defaultButton]", function(e) {
+            if (e.keyCode == '13') {
+                $(this).find('#' + $(this).attr('data-defaultButton')).click();
+                return false;
+            }
+        });
+    });
+</script>
+
+		    
+    <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+    <script type="text/javascript">var sa_interval = 8000; function saLoadScript(src) { var js = window.document.createElement('script'); js.src = src; js.type = 'text/javascript'; document.getElementsByTagName("head")[0].appendChild(js); } if (typeof (shopper_first) == 'undefined') saLoadScript('//www.shopperapproved.com/widgets/testimonial/3.0/7013.js'); shopper_first = true; </script>
+    <script type="text/javascript">
+        $(function() {
+            $('#ctl00_mainColumnHolder_doesCors').val('withCredentials' in new XMLHttpRequest());
+        });
+        function login() {
+            var d = {
+                "verb": "login",
+                "data": {
+                    "email": $("#ctl00_mainColumnHolder_emailTextBox").val(),
+                    "password": $("#ctl00_mainColumnHolder_passwordTextBox").val()
+                }
+            };
+            $.ajax({
+                type: "POST",
+                url: "https://www.stocklayouts.com/Handlers/Utilities.ashx",
+                data: JSON.stringify(d),
+                xhrFields: { withCredentials: true },
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function(data) {
+                    if (data.success) {
+                        $('#loginError').html('');
+                        $('#ctl00_mainColumnHolder_confirmationLabel').html('Welcome Back');
+                        ga('send', 'pageview', '/Templates/Details/CompletedLogin.ajax');
+                        $('#ctl00_mainColumnHolder_signInPanel').hide();
+                        $('#ctl00_mainColumnHolder_completionPanel').show();
+                        $('#ctl00_mainColumnHolder_continueButton')[0].focus();
+                    }
+                    else {
+                        $('#loginError').html(data.message);
+                    }
+                },
+                error: function() {
+                    $('#loginError').html("There was an error logging you in. Please try again.");
+                }
+            });
+            return false;
+        }
+    </script>
+    <script type="text/javascript">
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(pageLoaded);
+
+        function pageLoaded(sender, args) {
+            window.scrollTo(0, 0);
+        }
+    </script>
+
+		
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.TabPanel, {"headerTab":$get("__tab_ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants")}, null, {"owner":"ctl00_mainColumnHolder_tagsTabsContainer"}, $get("ctl00_mainColumnHolder_tagsTabsContainer_tabPanelRestaurants"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.TabPanel, {"headerTab":$get("__tab_ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering")}, null, {"owner":"ctl00_mainColumnHolder_tagsTabsContainer"}, $get("ctl00_mainColumnHolder_tagsTabsContainer_tabPanelCatering"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.TabContainer, {"activeTabIndex":0,"clientStateField":$get("ctl00_mainColumnHolder_tagsTabsContainer_ClientState")}, null, null, $get("ctl00_mainColumnHolder_tagsTabsContainer"));
+});
+//]]>
+</script>
+</form>
+		
+    </body>
+</html>
